@@ -1,5 +1,5 @@
 {
-    "name": "softspring/symfonic",
+    "name": "softspring/armonic",
     "description": "A powerful Symfony CMS",
     "license": "AGPL-3.0-or-later",
     "type": "library",
@@ -18,7 +18,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Softspring\\Symfonic\\": "src"
+            "Softspring\\Armonic\\": "src"
         }
     }
 }

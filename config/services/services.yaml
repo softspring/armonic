@@ -6,4 +6,4 @@ services:
         bind:
             $debug: '%kernel.debug%'
 
-    Softspring\Symfonic\EventListener\WelcomePageListener: ~
+    Softspring\Armonic\EventListener\WelcomePageListener: ~

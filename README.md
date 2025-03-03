@@ -1,19 +1,19 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/softspring/symfonic/blob/5.4/README.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/softspring/symfonic/blob/5.4/README-ES.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/softspring/armonic/blob/5.4/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/softspring/armonic/blob/5.4/README-ES.md)
 
-# Symfonic
+# Armonic
 This system acts as a content manager thanks to which you can create and manage static pages of your website from a single place, simplifying the work process, and also the lives of developers.
 
-Symfonic was developed in response to the need for a CMS that simplifies the creation of static pages and landing pages in Symfony-based projects. This allows our technical team to focus more on innovation and customization of applications, without being tied to repetitive tasks that do not add value.
+Armonic was developed in response to the need for a CMS that simplifies the creation of static pages and landing pages in Symfony-based projects. This allows our technical team to focus more on innovation and customization of applications, without being tied to repetitive tasks that do not add value.
 ## Index
 
-1. Why Symfonic
-2. How to Install and Use Symfonic
-   1. Using Symfonic in a Clean Symfony Project
-   2. Using Symfonic with a Sylius Project
+1. Why Armonic
+2. How to Install and Use Armonic
+   1. Using Armonic in a Clean Symfony Project
+   2. Using Armonic with a Sylius Project
 3. Adding more components to it
 
-## 1. Why Symfonic
+## 1. Why Armonic
 
 - Design layouts with simple or complex block structures and reuse them on different pages or sections. 
 - Create pages by combining modules you create yourself or using the ones we provide. 
@@ -21,16 +21,16 @@ Symfonic was developed in response to the need for a CMS that simplifies the cre
 - Manage multiple versions of the same page and preview the changes without fear of making mistakes, publish the final version when you are happy with it! 
 - All this with a semantic website from the first block, responsive, multi-site, multi-language and SEO ready.
 
-## 2. How to Install and Use Symfonic
+## 2. How to Install and Use Armonic
 
-### 2.1 Using Symfonic in a Clean Symfony Project
+### 2.1 Using Armonic in a Clean Symfony Project
 
 #### Installing Symfony
 
 Install Symfony following current instructions in https://symfony.com/doc/current/setup.html
 
 ```bash
-symfony new my-symfonic-project --version="6.2.*" --webapp
+symfony new my-armonic-project --version="6.2.*" --webapp
 ```
 
 #### Previous configuration
@@ -138,10 +138,10 @@ Encore
     // ...
 ```
 
-### Install symfonic
+### Install armonic
 
 ```yaml
-composer require softspring/symfonic:^5.4@dev
+composer require softspring/armonic:^5.4@dev
 bin/console doctrine:migrations:migrate -n
 ```
 

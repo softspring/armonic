@@ -1,6 +1,6 @@
 <?php
 
-namespace Softspring\Symfonic\DependencyInjection;
+namespace Softspring\Armonic\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class SymfonicExtension extends Extension
+class ArmonicExtension extends Extension
 {
     /**
      * @throws Exception
