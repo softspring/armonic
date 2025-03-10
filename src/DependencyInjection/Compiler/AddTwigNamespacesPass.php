@@ -1,6 +1,6 @@
 <?php
 
-namespace Softspring\Symfonic\DependencyInjection\Compiler;
+namespace Softspring\Armonic\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

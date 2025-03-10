@@ -1,12 +1,12 @@
 <?php
 
-namespace Softspring\Symfonic;
+namespace Softspring\Armonic;
 
-use Softspring\Symfonic\DependencyInjection\Compiler\AddTwigNamespacesPass;
+use Softspring\Armonic\DependencyInjection\Compiler\AddTwigNamespacesPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SymfonicBundle extends Bundle
+class ArmonicBundle extends Bundle
 {
     public function getPath(): string
     {
