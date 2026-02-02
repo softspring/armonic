@@ -5,15 +5,15 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.4",
         "softspring/cms-bundle": "^6.0@dev",
         "softspring/cms-translation-plugin": "^6.0@dev",
         "softspring/cms-module-collection": "^6.0@dev",
-        "symfony/http-kernel": "^6.4|^7.3"
+        "symfony/http-kernel": "^6.4|^7.4|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.89",
-        "phpstan/phpstan": "^1.10.49 || ^2.0.0"
+        "phpstan/phpstan": "^2.1"
     },
     "prefer-stable": true,
     "autoload": {
