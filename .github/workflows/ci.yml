@@ -19,11 +19,11 @@ jobs:
             contents: write
         strategy:
             matrix:
-                php-versions: [ '8.2', '8.4' ] # do not test 8.0 because of phpstan errors with doctrine/collections
+                php-versions: [ '8.4' ]
                 composer-prefer: [ '', '--prefer-lowest' ]
 
         steps:
-            -   uses: actions/checkout@v4
+            -   uses: actions/checkout@v6
 
             -   name: Install PHP
                 uses: shivammathur/setup-php@v2
