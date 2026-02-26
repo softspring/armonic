@@ -1,5 +1,5 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/softspring/armonic/blob/5.4/README.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/softspring/armonic/blob/5.4/README-ES.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/softspring/armonic/blob/6.0/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/softspring/armonic/blob/6.0/README-ES.md)
 
 # Armonic
 This system acts as a content manager thanks to which you can create and manage static pages of your website from a single place, simplifying the work process, and also the lives of developers.
@@ -101,7 +101,7 @@ In composer.json, we add the endpoints and we establish allow-contrib to true:
 ```
 
 ### TEMPORARY
-Until we release version 5.4 of the bundles we have to include (in composer.json):
+Until we release version 6.0 of the bundles we have to include (in composer.json):
 
 ```yaml
 {
@@ -141,7 +141,7 @@ Encore
 ### Install armonic
 
 ```yaml
-composer require softspring/armonic:^5.4@dev
+composer require softspring/armonic:^6.0@dev
 bin/console doctrine:migrations:migrate -n
 ```
 
@@ -150,7 +150,7 @@ bin/console doctrine:migrations:migrate -n
 We install additional modules: 
 
 ```yaml
-composer require softspring/cms-module-collection:^5.4
+composer require softspring/cms-module-collection:^6.0
 ```
 
 And we compile the assets
