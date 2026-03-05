@@ -7,6 +7,7 @@
     "require": {
         "php": ">=8.4",
         "softspring/cms-bundle": "^6.0@dev",
+        "softspring/cms-sections-plugin": "^6.0@dev",
         "softspring/cms-translation-plugin": "^6.0@dev",
         "softspring/cms-module-collection": "^6.0@dev",
         "symfony/http-kernel": "^6.4 || ^7.4 || ^8.0"
