@@ -13,14 +13,14 @@
 
 .nav-tabs .nav-link:hover {
   border: none;
-  color: #007bff;
+  color: var(--bs-primary);
 }
 
 .nav-tabs .active {
   font-weight: 800;
   background-color: transparent !important;
-  color: #007bff !important;
-  border-bottom: 3px solid #007bff !important;
+  color: var(--bs-primary) !important;
+  border-bottom: 3px solid var(--bs-primary) !important;
 }
 .nav-tabs .active-danger {
   font-weight: 800;

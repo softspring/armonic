@@ -10,6 +10,6 @@
 {% endblock %}
 
 {% block javascripts %}
-    {#{{ parent() }}#}{# do not load default bootstrap #}
+    {{ parent() }} do not load default bootstrap
     <script src="{{ asset('bundles/armonic/admin.dist.js') }}"></script>
 {% endblock %}
