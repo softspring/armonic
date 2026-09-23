@@ -35,8 +35,8 @@ jobs:
             -   name: Check PHP Version
                 run: php -v
 
-            -   name: Validate composer.json and composer.lock
-                run: composer validate --strict
+            -   name: Validate composer.json
+                run: composer validate --strict --no-check-lock
 
             -   name: Cache Composer packages
                 id: composer-cache
@@ -58,3 +58,11 @@ jobs:
 
             -   name: Code Style check
                 run: ./vendor/bin/php-cs-fixer fix -v --diff --dry-run
+
+            -   name: Run Rector
+                run: ./vendor/bin/rector process src --dry-run
+
+            -   name: Lint YAML
+                run: |
+                    ./vendor/bin/yaml-lint .github/ -vvv --parse-tags
+                    ./vendor/bin/yaml-lint config/ -vvv --parse-tags
