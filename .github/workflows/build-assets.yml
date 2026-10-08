@@ -2,9 +2,9 @@ name: Build assets
 
 on:
     push:
-        branches: [ 5.5 ]
+        branches: [ 5.6 ]
     pull_request:
-        branches: [ 5.5 ]
+        branches: [ 5.6 ]
 
 jobs:
     build:
