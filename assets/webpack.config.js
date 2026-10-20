@@ -1,4 +1,5 @@
 const Encore = require('@symfony/webpack-encore');
+const path = require('path');
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
 // It's useful when you use tools that rely on webpack.config.js file.
@@ -13,6 +14,14 @@ Encore
     .setPublicPath('/build')
     // only needed for CDN's or sub-directory deploy
     .setManifestKeyPrefix('build/')
+
+    // Version 6 packages expose their frontend sources under assets/.
+    .addAliases({
+        '@softspring/cms-bundle': path.resolve(__dirname, 'node_modules/@softspring/cms-bundle/assets'),
+        '@softspring/cms-module-collection': path.resolve(__dirname, 'node_modules/@softspring/cms-module-collection/assets'),
+        '@softspring/collection-form-type': path.resolve(__dirname, 'node_modules/@softspring/collection-form-type/assets'),
+        '@softspring/media-bundle': path.resolve(__dirname, 'node_modules/@softspring/media-bundle/assets')
+    })
 
     /*
      * ENTRY CONFIG
