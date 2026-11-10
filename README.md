@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://armonic.softspring.es/6.1@dev/">
+  <a href="https://armonic.softspring.es/6.1-dev/">
     Read documentation online
   </a>
     ·
